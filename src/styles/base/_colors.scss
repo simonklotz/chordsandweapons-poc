@@ -3,4 +3,25 @@
 .body {
   background: $color-white;
   color: $color-black;
+
+  .app-root {
+    .app-header {
+      .header {
+        color: $color-white;
+        background-color: $color-black;
+      }
+    }
+    .app-main {
+      .main {
+        color: $color-black;
+        background-color: $color-white;
+      }
+    }
+    .app-footer {
+      .footer {
+        color: $color-white;
+        background-color: $color-black;
+      }
+    }
+  }
 }
